@@ -2,11 +2,11 @@ package com.hibernate.associations.oneoneunidirectional.app;
 
 import java.util.Calendar;
 
+import org.hibernate.Session;
+
 import com.hibernate.associations.oneoneunidirectional.pojo.Employee;
 import com.hibernate.associations.oneoneunidirectional.pojo.EmployeeDetails;
 import com.hibernate.associations.oneoneunidirectional.util.HibernateUtil;
-
-import org.hibernate.Session;
 
 public class App {
 

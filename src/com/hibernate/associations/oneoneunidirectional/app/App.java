@@ -11,7 +11,7 @@ import com.hibernate.associations.oneoneunidirectional.util.HibernateUtil;
 public class App {
 
 	public static void main(String[] args) {
-		System.out.println("Hibernate one to one (Annotation)");
+		System.out.println(" ********************* Hibernate One-One Unidirectional (Annotation) *** START ******************* ");
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		Employee employee = new Employee("hanuma");
@@ -22,7 +22,7 @@ public class App {
 		session.save(employeeDetails);
 		session.getTransaction().commit();
 		session.close();
-		System.out.println("Done");
+		System.out.println(" ********************* Hibernate One-One Unidirectional (Annotation) *** END ********************* ");
 	}
 
 }
